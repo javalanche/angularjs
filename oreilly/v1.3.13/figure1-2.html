@@ -1,0 +1,13 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="controllers/HelloController.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body ng-app='Hello'>
+	<div ng-controller='HelloController'>
+		<input ng-model='greeting.text'>
+		<p>{{greeting.text}}, World</p>
+	</div>
+</body>
+</html>
+
