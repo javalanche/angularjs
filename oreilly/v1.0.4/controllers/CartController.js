@@ -1,6 +1,3 @@
-function HelloController($scope) {
-	$scope.greeting = { text: 'Hello' };
-}
 function CartController($scope) {
 	$scope.items = [
 	{title : 'Paint pots', quantity : 8, price : 3.95},
